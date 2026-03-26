@@ -24,11 +24,35 @@ blog/                   Blog post drafts
 registry.yaml           Master index of all tracked laws
 ```
 
+## Law file structure
+
+Laws come in two formats depending on size:
+
+### Small laws (under ~100KB) — single file
+```
+laws/eu-wide/ffd-regulation.md        # Frontmatter + summary + full text
+```
+
+### Large laws (over ~100KB) — directory with chapters
+```
+laws/eu-wide/gdpr/
+  _index.md       # Frontmatter, summary, key provisions, table of contents
+  recitals.md     # Preamble / "Whereas" section
+  chapter-01.md   # Chapter I — General Provisions
+  chapter-02.md   # Chapter II — Principles
+  ...
+  annexes.md      # All annexes (if any)
+```
+
+The `_index.md` is the entry point — read it first to understand the law. Chapters are self-contained and fit easily in a context window. Recitals are background context (the "Whereas" paragraphs).
+
 ## Naming conventions
 
-- **Files**: kebab-case, descriptive short name: `gdpr.md`, `data-act.md`, `nis2.md`
+- **Files**: kebab-case, descriptive short name: `gdpr`, `data-act`, `nis2`
 - **Directories**: lowercase, kebab-case for sectors: `sector-specific/finance/`
-- **Raw files**: Same name as the law markdown but with `.html` extension: `raw/eu-wide/gdpr.html`
+- **Raw files**: Same name as the law but with `.html` extension: `raw/eu-wide/gdpr.html`
+- **Chapter files**: `chapter-NN.md` where NN is the chapter number (zero-padded)
+- **Index files**: `_index.md` — always the entry point for a split law
 
 ## How to add a new law
 
