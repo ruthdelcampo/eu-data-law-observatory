@@ -1,0 +1,234 @@
+# EU Data Law Observatory — Registry
+# Master index of all laws tracked by the observatory.
+# Status: collected (raw HTML archived), processed (markdown created), pending (not yet fetched)
+
+laws:
+
+  # ── EU-Wide (Horizontal) ──────────────────────────────────────────────
+
+  - abbreviation: GDPR
+    title: "General Data Protection Regulation"
+    celex: "32016R0679"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2016-04-27
+    in_force: 2018-05-25
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: Data Act
+    title: "Data Act"
+    celex: "32023R2854"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2023-12-13
+    in_force: 2025-09-12
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2023/2854/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: DGA
+    title: "Data Governance Act"
+    celex: "32022R0868"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2022-05-30
+    in_force: 2023-09-24
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2022/868/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: AI Act
+    title: "Artificial Intelligence Act"
+    celex: "32024R1689"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2024-06-13
+    in_force: 2024-08-01
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: DSA
+    title: "Digital Services Act"
+    celex: "32022R2065"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2022-10-19
+    in_force: 2024-02-17
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2022/2065/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: DMA
+    title: "Digital Markets Act"
+    celex: "32022R1925"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2022-09-14
+    in_force: 2023-05-02
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2022/1925/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: ePrivacy Directive
+    title: "Directive on Privacy and Electronic Communications"
+    celex: "32002L0058"
+    type: directive
+    scope: eu-wide
+    sector: null
+    enacted: 2002-07-12
+    in_force: 2002-07-31
+    eurlex_url: "https://eur-lex.europa.eu/eli/dir/2002/58/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: FFD Regulation
+    title: "Free Flow of Non-Personal Data Regulation"
+    celex: "32018R1807"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2018-11-14
+    in_force: 2019-05-28
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2018/1807/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: eIDAS 2
+    title: "European Digital Identity Framework Regulation"
+    celex: "32024R1183"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2024-04-11
+    in_force: 2024-05-20
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2024/1183/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: Interoperable Europe Act
+    title: "Interoperable Europe Act"
+    celex: "32024R0903"
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: 2024-03-13
+    in_force: 2024-04-11
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2024/903/oj"
+    status: in-force
+    observatory_status: collected
+
+  # ── Sector-Specific: Finance ──────────────────────────────────────────
+
+  - abbreviation: DORA
+    title: "Digital Operational Resilience Act"
+    celex: "32022R2554"
+    type: regulation
+    scope: sector-specific
+    sector: finance
+    enacted: 2022-12-14
+    in_force: 2025-01-17
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2022/2554/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: PSD2
+    title: "Payment Services Directive 2"
+    celex: "32015L2366"
+    type: directive
+    scope: sector-specific
+    sector: finance
+    enacted: 2015-11-25
+    in_force: 2018-01-13
+    eurlex_url: "https://eur-lex.europa.eu/eli/dir/2015/2366/oj"
+    status: in-force
+    observatory_status: collected
+
+  # ── Sector-Specific: Health ───────────────────────────────────────────
+
+  - abbreviation: EHDS
+    title: "European Health Data Space Regulation"
+    celex: "32025R0327"
+    type: regulation
+    scope: sector-specific
+    sector: health
+    enacted: 2025-02-05
+    in_force: 2025-03-26
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2025/327/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: CTR
+    title: "Clinical Trials Regulation"
+    celex: "32014R0536"
+    type: regulation
+    scope: sector-specific
+    sector: health
+    enacted: 2014-04-16
+    in_force: 2022-01-31
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2014/536/oj"
+    status: in-force
+    observatory_status: collected
+
+  # ── Sector-Specific: Cybersecurity ────────────────────────────────────
+
+  - abbreviation: NIS2
+    title: "Network and Information Security Directive 2"
+    celex: "32022L2555"
+    type: directive
+    scope: sector-specific
+    sector: cybersecurity
+    enacted: 2022-12-14
+    in_force: 2024-10-17
+    eurlex_url: "https://eur-lex.europa.eu/eli/dir/2022/2555/oj"
+    status: in-force
+    observatory_status: collected
+
+  - abbreviation: CRA
+    title: "Cyber Resilience Act"
+    celex: "32024R2847"
+    type: regulation
+    scope: sector-specific
+    sector: cybersecurity
+    enacted: 2024-10-23
+    in_force: 2024-12-10
+    eurlex_url: "https://eur-lex.europa.eu/eli/reg/2024/2847/oj"
+    status: in-force
+    observatory_status: collected
+
+  # ── Sector-Specific: Public Sector ────────────────────────────────────
+
+  - abbreviation: Open Data Directive
+    title: "Open Data and Re-use of Public Sector Information Directive"
+    celex: "32019L1024"
+    type: directive
+    scope: sector-specific
+    sector: public
+    enacted: 2019-06-20
+    in_force: 2021-07-17
+    eurlex_url: "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+    status: in-force
+    observatory_status: collected
+
+  # ── Proposed / In Progress ────────────────────────────────────────────
+
+  - abbreviation: Digital Omnibus
+    title: "Digital Omnibus Package"
+    celex: null
+    type: regulation
+    scope: eu-wide
+    sector: null
+    enacted: null
+    in_force: null
+    eurlex_url: null
+    status: proposed
+    observatory_status: pending
+    notes: "Nov 2025 proposal to align AI Act, Data Act, GDPR, ePrivacy, and cybersecurity laws"
