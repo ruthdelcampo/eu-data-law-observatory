@@ -9,18 +9,38 @@ enacted: 2002-07-12
 in_force: 2002-07-31
 eurlex_url: "https://eur-lex.europa.eu/eli/dir/2002/58/oj"
 status: in-force
-related_laws: []
-tags: []
+related_laws: [GDPR, DSA, NIS2, eIDAS 2]
+tags: [electronic-communications, privacy, cookies, direct-marketing, traffic-data, location-data, confidentiality]
 last_updated: 2026-03-26
 ---
 
 ## Summary
 
-<!-- TODO: AI-generated summary -->
+The ePrivacy Directive (Directive 2002/58/EC), formally known as the Directive on Privacy and Electronic Communications, is an EU directive that establishes rules for the protection of personal data and privacy in the electronic communications sector. Adopted on 12 July 2002, it complements and particularises the general data protection framework (originally Directive 95/46/EC, now effectively read alongside the GDPR) by addressing the specific privacy risks that arise from electronic communications networks and services. The directive applies to the processing of personal data in connection with publicly available electronic communications services in public communications networks within the EU.
+
+The directive's most widely known provision concerns the use of cookies and similar tracking technologies. Article 5(3) requires that storing information or gaining access to information on a user's terminal equipment is permitted only when the user has been provided with clear and comprehensive information about the purpose of the processing and has been offered the right to refuse. This provision, often referred to as the "cookie rule," has had a profound practical impact on how websites operate across Europe, requiring cookie consent banners and opt-in mechanisms. Exemptions exist only for technical storage strictly necessary to carry out a communication or to provide an information society service explicitly requested by the user.
+
+The directive also establishes important protections regarding the confidentiality of communications, requiring Member States to prohibit listening, tapping, storage, or surveillance of communications and related traffic data without user consent. It regulates the processing of traffic data (which must be erased or anonymised once no longer needed for transmission) and location data (which may only be processed with consent or after anonymisation). Detailed provisions govern calling line identification, itemised billing, subscriber directories, and automatic call forwarding, all aimed at giving users meaningful control over their privacy.
+
+A further significant component is the regulation of unsolicited electronic communications for direct marketing purposes. Article 13 establishes an opt-in regime for automated calling systems, fax, and email marketing, requiring prior consent from subscribers. A limited exception allows businesses to market similar products or services to existing customers via email, provided that customers were clearly informed and given an easy opt-out at the point of collection and in each subsequent message. The directive also prohibits sending marketing emails that disguise or conceal the sender's identity.
+
+Article 15 allows Member States to restrict certain rights and obligations under the directive when necessary for national security, defence, public security, or criminal law enforcement, subject to proportionality requirements. This provision has been the subject of significant litigation before the Court of Justice of the European Union regarding national data retention laws. The ePrivacy Directive has been amended notably by Directive 2009/136/EC, and a proposed ePrivacy Regulation has been under negotiation to replace it, though the directive remains in force.
 
 ## Key Provisions
 
-<!-- TODO: Extract key articles -->
+- **Article 1** -- Scope and aim: harmonises Member State rules to ensure equivalent protection of privacy in electronic communications and the free movement of data and communications equipment.
+- **Article 2** -- Definitions: defines key terms including "traffic data," "location data," "communication," "call," "consent," "value added service," and "electronic mail."
+- **Article 3** -- Services concerned: limits the directive's scope to publicly available electronic communications services in public communications networks.
+- **Article 4** -- Security: requires providers to take appropriate technical and organisational measures to safeguard service security and to inform subscribers of particular security risks.
+- **Article 5** -- Confidentiality of communications: prohibits interception and surveillance of communications without consent; establishes the cookie consent rule requiring clear information and the right to refuse storage of or access to information on terminal equipment (Article 5(3)).
+- **Article 6** -- Traffic data: requires erasure or anonymisation of traffic data after transmission is complete, with exceptions for billing, marketing (with consent), and fraud detection.
+- **Article 7** -- Itemised billing: grants subscribers the right to receive non-itemised bills and requires reconciliation of billing detail with caller privacy.
+- **Article 8** -- Calling and connected line identification: requires providers to offer users the ability to prevent presentation of their calling line identification on a per-call and per-line basis.
+- **Article 9** -- Location data other than traffic data: permits processing only when anonymised or with consent, with users able to temporarily refuse processing at any time.
+- **Article 12** -- Directories of subscribers: requires that subscribers be informed of directory purposes and given the opportunity to determine, verify, correct, or withdraw their data from public directories free of charge.
+- **Article 13** -- Unsolicited communications: establishes an opt-in consent requirement for direct marketing via automated calling machines, fax, and email; provides a limited exception for marketing to existing customers regarding similar products/services; prohibits concealing sender identity in marketing emails.
+- **Article 14** -- Technical features and standardisation: prevents Member States from imposing mandatory technical features that impede equipment market access, while allowing measures to ensure terminal equipment respects user data protection.
+- **Article 15** -- Restrictions: allows Member States to restrict rights under the directive for national security, defence, public security, and criminal law enforcement purposes, subject to necessity and proportionality.
 
 ## Full Text
 

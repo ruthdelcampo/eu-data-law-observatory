@@ -9,18 +9,36 @@ enacted: 2024-03-13
 in_force: 2024-04-11
 eurlex_url: "https://eur-lex.europa.eu/eli/reg/2024/903/oj"
 status: in-force
-related_laws: []
-tags: []
+related_laws: [GDPR, DGA, Open Data Directive, eIDAS 2, AI Act]
+tags: [interoperability, public-sector, digital-services, cross-border, open-source, GovTech, standards, data-sharing]
 last_updated: 2026-03-26
 ---
 
 ## Summary
 
-<!-- TODO: AI-generated summary -->
+The Interoperable Europe Act (Regulation 2024/903) establishes a legal framework for achieving a high level of cross-border interoperability of public sector digital services across the European Union. The regulation addresses a longstanding challenge: EU Member States and Union entities operate network and information systems that often cannot communicate effectively across borders, creating barriers for citizens and businesses that need to interact with public administrations in other Member States. By replacing the previous informal cooperation model with binding rules and a structured governance framework, the Act aims to make cross-border digital public services -- such as mutual recognition of diplomas, vehicle data exchange, social security access, and single-window systems -- work seamlessly across the EU.
+
+The regulation creates several new institutional structures. At its centre is the Interoperable Europe Board, composed of one representative from each Member State and the Commission, which steers the strategic direction of interoperability cooperation, develops the European Interoperability Framework (EIF), and recommends "Interoperable Europe solutions" that carry a formal label. The Act also establishes the Interoperable Europe Community, an open forum for public and private stakeholders, and mandates each Member State to designate national competent authorities and a single point of contact for interoperability matters. An Interoperable Europe portal serves as the central hub for sharing solutions, publishing assessment reports, and fostering collaboration.
+
+A core obligation of the Act is the mandatory interoperability assessment: before any Union entity or public sector body introduces new or substantially modified binding requirements for trans-European digital public services, it must assess the impact on cross-border interoperability and publish the results. The regulation also requires public sector bodies to share interoperability solutions with each other upon request, including technical documentation and source code, and to prioritise open-source solutions where functionally equivalent. To encourage innovation, the Act introduces interoperability regulatory sandboxes -- controlled environments where public and private actors can develop and test new solutions under regulatory supervision -- and supports GovTech cooperation with startups, SMEs, and research institutions.
+
+The Act applies without prejudice to the GDPR and other data protection legislation, and explicitly safeguards Member State competence over national security and the definition of public services. It entered into force on 11 April 2024, with the interoperability assessment and national competent authority provisions applying from 12 January 2025. A Commission evaluation report is due by 12 January 2028, which will assess whether mandatory interoperability solutions should be introduced.
 
 ## Key Provisions
 
-<!-- TODO: Extract key articles -->
+- **Article 1 -- Subject matter and scope**: Establishes the regulation's purpose of promoting cross-border interoperability of trans-European digital public services. Applies to Union entities and public sector bodies that regulate, provide, manage, or implement such services, while preserving Member State competence over public services and national security.
+- **Article 3 -- Interoperability assessment**: Mandates that Union entities and public sector bodies carry out an interoperability assessment before adopting new or substantially modified binding requirements affecting trans-European digital public services. Results must be published in machine-readable format and shared with the Interoperable Europe Board.
+- **Article 4 -- Share and reuse of interoperability solutions**: Requires public sector bodies to share interoperability solutions (including source code and documentation) with other bodies upon request. Entities must prioritise open-source solutions where functionally equivalent. Exceptions apply for intellectual property restrictions and national security.
+- **Article 6 -- European Interoperability Framework (EIF)**: Tasks the Interoperable Europe Board with developing and maintaining the EIF, which provides a model and recommendations for legal, organisational, semantic, and technical interoperability. Member States must take the EIF into "utmost account" when developing national frameworks.
+- **Article 7 -- Interoperable Europe solutions**: Allows the Board to recommend interoperability solutions that carry the formal "Interoperable Europe solution" label, published on the Interoperable Europe portal. The Board can also withdraw recommendations and remove the label.
+- **Article 8 -- Interoperable Europe portal**: Establishes a central online portal as the single point of entry for interoperability solutions, assessment reports, best practices, training materials, and community engagement. The portal must be freely accessible to all citizens, including persons with disabilities.
+- **Articles 11-12 -- Interoperability regulatory sandboxes**: Creates a framework for controlled test environments where Union entities, public sector bodies, and GovTech actors (including SMEs and startups) can develop and test innovative interoperability solutions under regulatory supervision, with participation limited to two years (extendable by one). Includes safeguards for personal data processing.
+- **Article 13 -- Training**: Requires the Commission to provide training materials and organise free online training courses on interoperability, and to promote a certification programme on interoperability matters.
+- **Article 15 -- Interoperable Europe Board**: Establishes the Board as the central governance body, composed of one representative per Member State plus the Commission. The Board develops the EIF, recommends solutions, adopts the Interoperable Europe Agenda, and coordinates across sectors and with bodies like the European Data Innovation Board.
+- **Article 16 -- Interoperable Europe Community**: Creates an open stakeholder community for public and private actors, civil society, and academia to contribute expertise, participate in working groups, and support interoperability initiatives.
+- **Article 17 -- National competent authorities**: Requires each Member State to designate one or more competent authorities and a single point of contact responsible for coordinating the application of the regulation domestically.
+- **Article 19 -- Interoperable Europe Agenda**: Requires the Board to adopt an annual strategic agenda setting priorities for interoperability development, including needs assessments, planned support measures, and available financial opportunities.
+- **Article 20 -- Monitoring and evaluation**: Obliges the Commission to monitor cross-border interoperability progress, submit annual reports to the European Parliament and Council, and conduct a comprehensive evaluation by January 2028 assessing whether mandatory interoperability solutions are needed.
 
 ## Full Text
 

@@ -9,18 +9,31 @@ enacted: 2018-11-14
 in_force: 2019-05-28
 eurlex_url: "https://eur-lex.europa.eu/eli/reg/2018/1807/oj"
 status: in-force
-related_laws: []
-tags: []
+related_laws: [GDPR, Data Act, DGA, Open Data Directive]
+tags: [non-personal-data, data-localisation, free-movement, cloud, portability, self-regulation, data-porting]
 last_updated: 2026-03-26
 ---
 
 ## Summary
 
-<!-- TODO: AI-generated summary -->
+The Free Flow of Non-Personal Data Regulation (Regulation (EU) 2018/1807) establishes the principle that non-personal data must be able to move freely across EU member states without unjustified restrictions. It directly complements the GDPR, which guarantees the free movement of personal data: together, the two regulations create a coherent framework ensuring that all types of electronic data can flow freely within the single market. The regulation targets so-called "data localisation requirements" -- national laws or administrative practices that force data to be stored or processed within the territory of a specific member state -- and prohibits them unless they can be justified on grounds of public security and satisfy the principle of proportionality.
+
+The regulation applies broadly to any processing of electronic non-personal data in the Union, whether carried out by private companies, public authorities, or individuals, and whether the service provider is established inside or outside the EU. It covers all layers of cloud computing, from infrastructure (IaaS) to platforms (PaaS) and applications (SaaS). For datasets that mix personal and non-personal data, the regulation applies to the non-personal part, while the GDPR continues to govern the personal data component. Where the two types of data are inextricably linked, the GDPR takes precedence.
+
+Beyond removing localisation barriers, the regulation addresses two additional concerns. First, it safeguards the ability of national competent authorities to access data for regulatory and law enforcement purposes regardless of where in the EU the data are processed, and establishes a cooperation procedure between member states when cross-border assistance is needed. Second, it promotes data portability for professional users by encouraging industry-led codes of conduct covering switching processes, transparency requirements, and interoperability standards -- aiming to reduce vendor lock-in in the cloud services market.
+
+The regulation entered into force on 28 May 2019. Member states were required to repeal non-compliant data localisation requirements by 30 May 2021 and to publish details of any remaining requirements via a national online single information point.
 
 ## Key Provisions
 
-<!-- TODO: Extract key articles -->
+- **Article 1 -- Subject matter**: Defines the regulation's three-pronged scope: rules on data localisation requirements, data availability for competent authorities, and data porting for professional users.
+- **Article 2 -- Scope**: Applies to all processing of electronic non-personal data in the EU, including cloud services provided from outside the Union. For mixed datasets (personal + non-personal), the non-personal part falls under this regulation while the GDPR governs the personal data; where the two are inextricably linked, the GDPR prevails.
+- **Article 3 -- Definitions**: Establishes key concepts including "data localisation requirement" (any obligation that forces processing in a specific member state or hinders cross-border processing) and "professional user" (anyone using data processing services for business purposes, including public authorities).
+- **Article 4 -- Free movement of data within the Union**: The core provision. Prohibits data localisation requirements unless justified on grounds of public security and proportionate. Requires member states to notify the Commission of any new localisation measures and to repeal non-compliant existing ones by 30 May 2021. Mandates national online information points listing any remaining requirements.
+- **Article 5 -- Data availability for competent authorities**: Ensures that national authorities retain full powers to request and obtain access to data regardless of where it is processed in the EU. Permits member states to impose penalties for non-compliance with data access obligations and, in urgent cases, strictly proportionate interim measures including temporary re-localisation.
+- **Article 6 -- Porting of data**: Directs the Commission to encourage self-regulatory codes of conduct covering best practices for switching providers, minimum pre-contractual information requirements, certification schemes for comparing services, and awareness-raising. Codes were to be developed by November 2019 and effectively implemented by May 2020.
+- **Article 7 -- Procedure for cooperation between authorities**: Establishes a structured cooperation mechanism through designated single points of contact in each member state, enabling competent authorities to request cross-border assistance in obtaining access to data.
+- **Article 8 -- Evaluation and guidelines**: Required the Commission to evaluate the regulation by November 2022, with particular attention to mixed datasets, the public security exception, and the effectiveness of self-regulatory codes of conduct.
 
 ## Full Text
 

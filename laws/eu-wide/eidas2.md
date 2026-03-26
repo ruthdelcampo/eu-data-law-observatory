@@ -9,18 +9,35 @@ enacted: 2024-04-11
 in_force: 2024-05-20
 eurlex_url: "https://eur-lex.europa.eu/eli/reg/2024/1183/oj"
 status: in-force
-related_laws: []
-tags: []
+related_laws: [GDPR, DSA, DMA, NIS2, Cyber Resilience Act]
+tags: [digital-identity, eIDAS, identity-wallet, trust-services, electronic-signatures, authentication, interoperability, cross-border]
 last_updated: 2026-03-26
 ---
 
 ## Summary
 
-<!-- TODO: AI-generated summary -->
+Regulation (EU) 2024/1183, commonly known as eIDAS 2, amends the original eIDAS Regulation (No 910/2014) to establish the European Digital Identity Framework. Its centrepiece is the **European Digital Identity Wallet** -- a secure, government-backed digital identity tool that every EU Member State must provide to its citizens and residents within 24 months of the implementing acts entering into force. The Wallet allows individuals and legal persons to store, manage, and selectively share person identification data and electronic attestations of attributes (such as diplomas, licences, or professional qualifications) with public and private service providers across the EU, both online and offline.
+
+The regulation is motivated by the fragmentation of national electronic identification systems across the Union and the limited uptake of the original eIDAS framework, particularly in the private sector. eIDAS 2 addresses this by mandating that the Wallet operate at assurance level "high," be issued free of charge to natural persons, and be built on open-source software components. It introduces strong privacy-by-design requirements: Wallet providers must not track user transactions or combine Wallet data with other services, and the technical framework must support zero-knowledge proofs and selective disclosure to minimise data exposure. Users retain full control over their data, with a mandatory transparency dashboard logging all transactions and enabling direct GDPR rights enforcement.
+
+Beyond the Wallet itself, eIDAS 2 significantly expands the trust services framework. It introduces new qualified trust service categories for **electronic attestations of attributes**, **electronic archiving**, and **electronic ledgers** (blockchain-like data structures). It also reforms website authentication certificates (QWACs), requiring web browsers to recognise and display them. The regulation establishes a comprehensive governance structure, including national supervisory bodies for both Wallet providers and trust services, a European Digital Identity Cooperation Group, mandatory security certification aligned with the EU Cybersecurity Act, and reporting obligations. The regulation explicitly preserves GDPR as the overarching data protection framework and requires cooperation between eIDAS supervisory bodies and national data protection authorities.
+
+eIDAS 2 affects a broad range of actors: Member State governments (who must provide the Wallet), public sector bodies (who must issue electronic attestations from authentic sources), private sector relying parties (who must register to use the Wallet), trust service providers, web browser vendors, and ultimately all EU citizens and residents who may choose to use the Wallet for accessing services across the Union.
 
 ## Key Provisions
 
-<!-- TODO: Extract key articles -->
+- **Article 5a -- European Digital Identity Wallets**: Core provision requiring each Member State to provide at least one European Digital Identity Wallet. Defines the Wallet's capabilities including secure storage, selective disclosure, pseudonym generation, qualified electronic signatures (free for natural persons), a transparency dashboard, and data portability. Mandates open-source licensing for user-facing software components.
+- **Article 5b -- Relying Party Registration**: Requires public and private service providers that want to rely on the Wallet to register in their Member State, providing identification details and specifying what data they intend to request and why.
+- **Article 5c -- Reliance on European Digital Identity Wallets**: Establishes which categories of relying parties (very large platforms under the DSA, regulated sectors, public services) must accept the Wallet for user authentication.
+- **Article 5d -- Privacy and Data Protection for the Wallet**: Specifies that Wallet providers must not collect unnecessary data, must keep Wallet data logically separate, and must ensure unobservability of user transactions.
+- **Article 5e -- Security and Certification**: Requires European Digital Identity Wallets to be certified, including cybersecurity certification aligned with Regulation (EU) 2019/881 (Cybersecurity Act), and establishes regular vulnerability assessment obligations.
+- **Article 5f -- Cross-border Recognition**: Ensures that European Digital Identity Wallets issued in one Member State are recognised and accepted across all Member States.
+- **Article 45 (revised) -- Qualified Certificates for Website Authentication (QWACs)**: Requires web browser providers to recognise QWACs and display identity data in a user-friendly manner, with a cybersecurity precautionary exception (Article 45a).
+- **Articles 45b-45g -- Electronic Attestation of Attributes**: New trust service category enabling qualified and non-qualified electronic attestations of attributes (e.g., diplomas, professional licences). Includes legal effects, requirements, verification against authentic sources, and provisions for public sector issuance.
+- **Article 45h -- Data Separation for Attestation Providers**: Prohibits providers of electronic attestation of attributes from combining personal data across different services they offer.
+- **Articles 45i-45j -- Electronic Archiving Services**: New qualified trust service for long-term preservation of electronic data and documents with integrity and origin guarantees.
+- **Articles 45k-45l -- Electronic Ledgers**: New qualified trust service for tamper-evident, chronologically ordered electronic data records.
+- **Articles 46a-46e -- Governance Framework**: Establishes national supervisory bodies for both Wallet providers and trust services, single points of contact for cross-border cooperation, mutual assistance mechanisms, and the European Digital Identity Cooperation Group.
 
 ## Full Text
 

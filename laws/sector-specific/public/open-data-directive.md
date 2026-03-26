@@ -9,18 +9,34 @@ enacted: 2019-06-20
 in_force: 2021-07-17
 eurlex_url: "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
 status: in-force
-related_laws: []
-tags: []
+related_laws: [GDPR, DGA, Data Act, Interoperable Europe Act, FFD Regulation]
+tags: [open-data, public-sector, re-use, high-value-datasets, transparency, machine-readable, APIs, licensing, public-undertakings]
 last_updated: 2026-03-26
 ---
 
 ## Summary
 
-<!-- TODO: AI-generated summary -->
+The Open Data Directive (Directive 2019/1024) establishes a harmonised framework across the EU for the re-use of documents held by public sector bodies and, for the first time, public undertakings. It is a recast of the original 2003 Public Sector Information (PSI) Directive, significantly expanding its scope to cover utilities, public transport operators, and publicly funded research data. The Directive enshrines the principle of "open by design and by default," requiring that government-held information be made available for re-use in open, machine-readable formats whenever possible, both for commercial and non-commercial purposes.
+
+A central innovation of the Directive is the concept of high-value datasets -- categories of public data with particularly significant socioeconomic benefits (such as geospatial, meteorological, statistical, and company ownership data). These datasets must be made available free of charge, in machine-readable formats, and accessible via APIs. The Commission is empowered to adopt implementing acts specifying which datasets qualify and the conditions for their publication. The Directive also requires Member States to adopt open access policies for publicly funded research data, following the FAIR principles (findable, accessible, interoperable, re-usable).
+
+The Directive sets rules on charging, requiring that re-use generally be free of charge or limited to marginal costs, with exceptions for libraries, museums, archives, and public sector bodies that must generate revenue to cover their operations. It prohibits exclusive arrangements that would lock up public data with a single re-user, while allowing time-limited exceptions for digitisation partnerships with cultural institutions. Licensing conditions, where applied, must be objective, proportionate, and non-discriminatory, with Member States encouraged to promote open standard licences. The Directive also introduces requirements for dynamic data (frequently updated or real-time data) to be made available immediately after collection through suitable APIs.
+
+The Directive affects all public sector bodies at every level of government in EU Member States, public undertakings in the utilities and transport sectors, and research organisations receiving public funding. It is closely related to the GDPR (which governs personal data protection carve-outs), the Data Governance Act (which builds on data sharing principles), the Data Act (which addresses broader data access rights), and the Interoperable Europe Act (which promotes interoperability of public sector digital services).
 
 ## Key Provisions
 
-<!-- TODO: Extract key articles -->
+- **Article 1 -- Subject matter and scope**: Defines the Directive's scope, covering documents held by public sector bodies, public undertakings in specified sectors (utilities, transport), and publicly funded research data. Lists extensive exclusions including documents covered by third-party IP rights, national security, personal data protections, and public broadcasters.
+- **Article 2 -- Definitions**: Establishes key terms including "public sector body," "public undertaking," "document," "dynamic data," "high-value datasets," "re-use," "machine-readable format," "open format," and "reasonable return on investment."
+- **Article 3 -- General principle**: Requires Member States to ensure that all in-scope documents are re-usable for commercial or non-commercial purposes under the conditions set out in the Directive.
+- **Article 4 -- Processing of requests for re-use**: Sets a 20-working-day deadline for public sector bodies to respond to re-use requests, extendable by another 20 days for complex requests. Requires decisions to include information on means of redress.
+- **Article 5 -- Available formats**: Mandates that documents be made available in open, machine-readable formats with metadata complying with formal open standards. Requires dynamic data to be available immediately after collection via APIs, and high-value datasets to be accessible via APIs and bulk download.
+- **Article 6 -- Principles governing charging**: Establishes that re-use shall be free of charge as the default rule, with recovery of marginal costs permitted. Allows exceptions for revenue-dependent public bodies, libraries/museums/archives, and public undertakings. High-value datasets and publicly funded research data must be free.
+- **Article 8 -- Standard licences**: Provides that re-use conditions must be objective, proportionate, non-discriminatory, and must not restrict competition. Encourages Member States to make standard licences available in digital format.
+- **Article 10 -- Research data**: Requires Member States to adopt open access policies for publicly funded research data following the "open by default" and FAIR principles, while respecting IP rights, personal data, and legitimate commercial interests.
+- **Article 11 -- Non-discrimination**: Prohibits discriminatory conditions for comparable categories of re-use, including cross-border re-use.
+- **Article 12 -- Exclusive arrangements**: Bans exclusive rights over public sector documents as a general rule. Allows limited exceptions for services in the public interest (reviewed every 3 years) and cultural digitisation partnerships (up to 10 years).
+- **Articles 13-14 -- High-value datasets**: Establishes thematic categories (geospatial, earth observation, meteorological, statistical, company, mobility) and empowers the Commission to adopt implementing acts specifying which datasets must be made available free of charge, in machine-readable formats, via APIs and bulk download.
 
 ## Full Text
 
