@@ -7,6 +7,8 @@ title: EU Data Law Observatory
 
 An open research project tracking the European Union's growing body of data legislation — mapping fragmentation, overlaps, and conflicts across horizontal, sector-specific, and national data laws.
 
+**[Read the Blog →](blog/)** — Analysis and proposals on the EU data law landscape
+
 ## The Problem
 
 The EU has enacted a rapidly expanding set of data-related laws at multiple levels:
